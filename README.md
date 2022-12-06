@@ -5,7 +5,7 @@
 1. `curl -Lo bash.sh https://github.com/Rivzer/p2p/releases/latest/download/bash.sh`
   (if u get a error like curl not found or something else, try: `apt install curl -y` and try again)
 
-2. `sed -i -e 's/\r$//' bash.sh`
+2. `chmod u+x bash.sh && sed -i -e 's/\r$//' bash.sh`
 
 3. `./bash.sh`
 
