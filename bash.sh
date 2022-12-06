@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update -y
-apt install docker.io
+apt install docker.io -y
 docker pull peer2profit/peer2profit_linux
 echo "Type your peer2profit email"
 read email
