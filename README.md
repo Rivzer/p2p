@@ -1,6 +1,13 @@
 # p2p
 peer 2 profit docker setup script
 
-chmod +x bash.sh
+Use by 3 simple commands:
 
-./bash.sh
+1. wget https://raw.githubusercontent.com/Rivzer/p2p/1.0/bash.sh
+  (if u get a error like wget not found or something else, try: "apt install wget -y" and try again)
+
+2. chmod +x bash.sh
+
+3. ./bash.sh
+
+Done :)
