@@ -2,7 +2,7 @@
 
 ## Use by 3 simple commands:
 
-1. `curl -Lo bash.sh https://github.com/Rivzer/p2p/releases/latest/download/bash.sh`
+1. `curl -Lo bash.sh https://raw.githubusercontent.com/Rivzer/p2p/main/bash.sh`
   (if u get a error like curl not found or something else, try: `apt install curl -y` and try again)
 
 2. `chmod u+x bash.sh && sed -i -e 's/\r$//' bash.sh`
